@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
 
 class SignInTwo extends StatelessWidget {
   @override
@@ -105,12 +105,11 @@ class SignInTwo extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: <Widget>[
-                        Icon(FontAwesomeIcons.facebookSquare),
                         Text('Sign up with facebook',
-                        style: TextStyle(
-                          fontSize: 15,
-                          fontFamily: 'SFUIDisplay'
-                        ),)
+                          style: TextStyle(
+                              fontSize: 15,
+                              fontFamily: 'SFUIDisplay'
+                          ),)
                       ],
                     ),
                     color: Colors.transparent,

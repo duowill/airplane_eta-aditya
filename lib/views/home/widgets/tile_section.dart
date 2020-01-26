@@ -1,3 +1,4 @@
+import 'package:airplane_eta/TravelPage.dart';
 import 'package:flutter/material.dart';
 import '../../../utils/colors.dart';
 import '../../../widgets/category_card.dart';
@@ -38,7 +39,10 @@ class _TileSectionState extends State<TileSection> {
       color: color,
       top: top,
       bottom: bottom,
-      onPressed: () => selectCategory(index),
+      onPressed: () => Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => MapSample()),
+      ),
     );
   }
 

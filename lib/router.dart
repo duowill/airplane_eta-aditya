@@ -8,12 +8,12 @@ const String notificationsViewRoute = '/notifications';
 Route<dynamic> generateRoute(RouteSettings settings) {
   switch (settings.name) {
     case homeViewRoute:
-      return MaterialPageRoute(builder: (_) => SignInOne());
+      return MaterialPageRoute(builder: (_) => HomePage());
     case notificationsViewRoute:
       return MaterialPageRoute(builder: (_) => NotificationsPage());
 
       break;
     default:
-      return MaterialPageRoute(builder: (_) => SignInOne());
+      return MaterialPageRoute(builder: (_) => HomePage());
   }
 }
