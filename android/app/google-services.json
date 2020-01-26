@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "147714091774",
+    "firebase_url": "https://eta-login-signup.firebaseio.com",
+    "project_id": "eta-login-signup",
+    "storage_bucket": "eta-login-signup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147714091774:android:41e913f5218cf4d10193af",
+        "android_client_info": {
+          "package_name": "org.crhsidea.airplane_eta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147714091774-ubgs17o608dshlsnk58o0viuv55sndf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx0PQb6aew42k7-Kl8H__fjVB11eFfpBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147714091774-ubgs17o608dshlsnk58o0viuv55sndf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
